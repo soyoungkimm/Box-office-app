@@ -14,8 +14,11 @@
 		68675B76283CA2CB00A9AB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68675B75283CA2CB00A9AB30 /* Assets.xcassets */; };
 		68675B79283CA2CB00A9AB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68675B77283CA2CB00A9AB30 /* LaunchScreen.storyboard */; };
 		68675B82283CA99A00A9AB30 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68675B81283CA99A00A9AB30 /* MyTableViewCell.swift */; };
+		6871BBD12855151C008DA906 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6871BBD02855151C008DA906 /* MenuViewController.swift */; };
+		6871BBD4285529E7008DA906 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6871BBD3285529E7008DA906 /* MovieDetailViewController.swift */; };
 		6899FC2F2845F1ED0074BF5F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6899FC2E2845F1ED0074BF5F /* DetailViewController.swift */; };
 		68D241A7284F249900978089 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D241A6284F249900978089 /* MapViewController.swift */; };
+		68D241BA284F3EEA00978089 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D241B9284F3EEA00978089 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +31,11 @@
 		68675B78283CA2CB00A9AB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68675B7A283CA2CB00A9AB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68675B81283CA99A00A9AB30 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		6871BBD02855151C008DA906 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		6871BBD3285529E7008DA906 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		6899FC2E2845F1ED0074BF5F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010DetailViewController.swift"; sourceTree = "<group>"; };
 		68D241A6284F249900978089 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		68D241B9284F3EEA00978089 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				68675B81283CA99A00A9AB30 /* MyTableViewCell.swift */,
 				6899FC2E2845F1ED0074BF5F /* DetailViewController.swift */,
 				68D241A6284F249900978089 /* MapViewController.swift */,
+				68D241B9284F3EEA00978089 /* PreviewViewController.swift */,
+				6871BBD02855151C008DA906 /* MenuViewController.swift */,
+				6871BBD3285529E7008DA906 /* MovieDetailViewController.swift */,
 			);
 			path = MovieKSY;
 			sourceTree = "<group>";
@@ -148,10 +157,13 @@
 			files = (
 				68675B71283CA2CA00A9AB30 /* ViewController.swift in Sources */,
 				68D241A7284F249900978089 /* MapViewController.swift in Sources */,
+				68D241BA284F3EEA00978089 /* PreviewViewController.swift in Sources */,
 				6899FC2F2845F1ED0074BF5F /* DetailViewController.swift in Sources */,
 				68675B82283CA99A00A9AB30 /* MyTableViewCell.swift in Sources */,
 				68675B6D283CA2CA00A9AB30 /* AppDelegate.swift in Sources */,
 				68675B6F283CA2CA00A9AB30 /* SceneDelegate.swift in Sources */,
+				6871BBD4285529E7008DA906 /* MovieDetailViewController.swift in Sources */,
+				6871BBD12855151C008DA906 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
