@@ -26,7 +26,7 @@ struct  DailyBoxOfficeList : Codable {
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var movieData : MovieData?
-    let movieURL = "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=3c47a88b3298a90aabde4fef7b450779&targetDt=20220522"
+    var movieURL = "https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=3c47a88b3298a90aabde4fef7b450779&targetDt=20220522"
     
     @IBOutlet weak var table: UITableView!
     
@@ -35,6 +35,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view.
         table.delegate = self
         table.dataSource = self
+        
+        //movieURL += makeYesterdayString()
         getData()
     }
     
